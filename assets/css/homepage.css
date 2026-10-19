@@ -54,6 +54,14 @@ body { color: #40474e; line-height: 1.65; }
 .subsection-title { font-size: 1.08rem; margin-top: 1.8rem; }
 .publication-list { padding-left: 1.2rem; }
 .publication-list li { padding-left: .2rem; margin-bottom: 1.4rem; }
+.selected-publication-list { margin-top: 1.6rem; }
+.other-publications { margin: 1.8rem 0; border: 1px solid #e1e6eb; border-radius: 6px; }
+.other-publications summary { padding: .85rem 1rem; color: #224b8d; font-size: 1rem; font-weight: 600; cursor: pointer; }
+.other-publications summary:hover { background: #f6f8fa; }
+.other-publications summary:focus-visible { outline: 2px solid #224b8d; outline-offset: 3px; }
+.other-publications[open] summary { border-bottom: 1px solid #e1e6eb; margin-bottom: 1rem; }
+.other-publications > .publication-list { margin: 1rem 0 .2rem; padding-left: 2.2rem; padding-right: 1rem; }
+.publication-count { font-weight: 400; color: #68727c; }
 .publication-title { font-weight: 700; font-size: .98rem; }
 .venue { font-size: .85rem; color: #ae3949; }
 .compact-summary { margin-top: .35rem !important; color: #5d6771; font-size: .89rem !important; }
